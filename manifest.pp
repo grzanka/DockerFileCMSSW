@@ -16,7 +16,7 @@ file {"/opt/cms":
   ensure => directory,
   owner => "cmsbuild",
 }->
-package {"cms+cmssw+CMSSW_8_1_0_pre3":
+package {"cms+cmssw+CMSSW_8_0_8":
   ensure             => present,
   provider           => cmsdist,
   install_options    => [{

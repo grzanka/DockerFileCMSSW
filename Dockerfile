@@ -8,6 +8,6 @@ WORKDIR /home/cmsbuild
 ENV SCRAM_ARCH=slc6_amd64_gcc530
 
 RUN source /opt/cms/cmsset_default.sh && \
-    scram project CMSSW CMSSW_8_1_0_pre3
+    scram project CMSSW CMSSW_8_0_8
 
 CMD /bin/bash
